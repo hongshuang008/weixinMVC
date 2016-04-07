@@ -57,7 +57,7 @@ public class testMenu {
 				t.setMenuUrl("http://www.baidu.com");
 				t.setTimestamp("121212132");
 				t.setUserName("zhangsan");
-				//System.out.println(t);
+				System.out.println(t);
 				 ms.marshal(t, System.out);  
 		} catch (JAXBException e) {
 			// TODO Auto-generated catch block
